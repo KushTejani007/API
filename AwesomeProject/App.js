@@ -13,7 +13,7 @@ export default function App() {
   
   const getdata=async()=>{
     //api call
-    
+    // const url="https://jsonplaceholder.typicode.com/posts/1";
     const url="http://localhost:3000/users";
     let result= await fetch(url);
     result=await result.json();
